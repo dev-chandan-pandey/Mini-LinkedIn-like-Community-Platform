@@ -26,7 +26,7 @@ A mini LinkedIn clone built using modern web technologies, allowing users to reg
 
 ---
 
-`
+```
 /linkedin-clone
 ├── /app                  ← App router pages and routes
 │   └── /api              ← API route handlers (e.g., login, register)
