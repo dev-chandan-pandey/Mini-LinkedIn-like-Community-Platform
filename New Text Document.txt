@@ -1,0 +1,93 @@
+Dear Candidate,
+
+Thank you for applying for the Full Stack Development Internship at CIAAN Cyber Tech Pvt Ltd. As the next step, we’d like you to complete a short challenge to assess your development skills. You may use AI tools to assist.
+
+💻 Task: Build a Mini LinkedIn-like Community Platform
+Required Features:
+	1.	User Authentication
+
+	•	Register/Login (Email & Password)
+	•	Profile with name, email, bio
+
+	2.	Public Post Feed
+
+	•	Create, read, display text-only posts
+	•	Home feed with author’s name and timestamp
+
+	3.	Profile Page
+
+	•	View a user’s profile and their posts
+
+	4.	Tech Stack (Your Choice):
+
+	•	Frontend: React / Next.js 
+	•	Backend: Node.js (Express) 
+	•	Database: MongoDB / MySQL  / Firebase
+
+Deploy using any free hosting (e.g., Vercel, Netlify, Render).
+
+📝 Submit:
+	•	GitHub Repo Link
+	•	Live Demo URL
+	•	README.md with:
+	•	Stack used
+	•	Setup instructions
+	•	Admin/demo user logins (if applicable)
+	•	Any extra features (optional)
+
+⏳ Deadline: Submit within 48 hours of receiving this message. Response time will be considered during shortlisting.
+
+📌 Note:
+	1.	Code quality, responsiveness, UI, and functionality will be evaluated.
+
+Mini-LinkedIn-like-Community-Platform\linkedin-clone\src\app\models\User.ts
+/linkedin-clone
+├── /app                  ← App router pages and routes
+│   └── /api              ← API route handlers (e.g., login, register)
+├── /components           ← Reusable UI components (e.g., PostCard, Navbar)
+├── /lib                  ← Helpers, db connection, JWT utils
+│   ├── db.ts             ← ✅ Your MongoDB connection
+│   └── auth.ts           ← JWT utilities
+├── /models               ← ✅ All your Mongoose schemas/models
+│   └── User.ts           ← User schema
+│   └── Post.ts           ← (upcoming) Post schema
+├── .env.local            ← Environment variables
+├── tailwind.config.js
+├── tsconfig.json
+└── ...
+/your-project-root
+│
+├── app/
+│   ├── page.tsx             ← Home
+│   ├── login/page.tsx
+│   ├── register/page.tsx
+│   ├── feed/page.tsx
+│   └── profile/[id]/page.tsx
+│
+├── context/
+│   └── AuthContext.tsx
+│
+├── components/
+│   └── Navbar.tsx
+│
+├── lib/
+│   └── db.ts
+│
+├── models/
+│   ├── User.ts
+│   └── Post.ts
+│
+├── pages/
+│   └── api/
+│       ├── auth/
+│       │   ├── register.ts
+│       │   └── login.ts
+│       ├── posts/
+│       │   ├── index.ts
+│       │   └── new.ts
+│       └── users/
+│           └── [id].ts
+│
+├── .env.local               ← contains DB + JWT_SECRET
+├── next.config.js
+└── tsconfig.json
