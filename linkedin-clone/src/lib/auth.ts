@@ -5,6 +5,7 @@ const JWT_SECRET = process.env.JWT_SECRET || 'defaultsecret';
 
 export function verifyToken(token: string) {
   try {
+    console.log(jwt.verify(token, JWT_SECRET),"v token")
     return jwt.verify(token, JWT_SECRET) as { id: string };
   } catch (err) {
     return null;

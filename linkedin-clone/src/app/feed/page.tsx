@@ -43,14 +43,12 @@ export default function FeedPage() {
 
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || 'Failed to post');
-
       setPosts((prev) => [data.post, ...prev]);
       setContent('');
     } catch (err: any) {
       setError(err.message);
     }
   };
-
   return (
   <div className="max-w-2xl w-full mx-auto mt-8 px-4 sm:px-6 lg:px-0">
 

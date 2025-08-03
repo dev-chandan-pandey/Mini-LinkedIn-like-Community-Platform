@@ -27,7 +27,6 @@ export default function ProfilePage() {
         console.log(id,"id")
         const res = await fetch(`/api/users/${id}`);
         const data = await res.json();
-        console.log(data,"data")
         setProfile({...data.user,posts:data.posts});
       } catch (err) {
         console.error('Failed to fetch profile:', err);
@@ -38,7 +37,7 @@ export default function ProfilePage() {
 
     if (id) fetchProfile();
   }, [id]);
-console.log(profile,"profile")
+  
   if (loading) return <div className="text-center mt-10">Loading...</div>;
 
   if (!profile) return <div className="text-center mt-10 text-red-500">User not found.</div>;
