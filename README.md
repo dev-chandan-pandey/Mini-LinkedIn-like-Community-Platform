@@ -6,11 +6,11 @@ A mini LinkedIn clone built using modern web technologies, allowing users to reg
 
 ## 🔗 Live Demo
 
-[🌐 Click to View Live](https://your-deployment-url.vercel.app)
+[🌐 Click to View Live](https://mini-linked-in-like-community-platf.vercel.app/)
 
 ## 📂 GitHub Repository
 
-[💻 GitHub Repo](https://github.com/your-username/linkedin-clone)
+[💻 GitHub Repo](https://github.com/dev-chandan-pandey/Mini-LinkedIn-like-Community-Platform)
 
 ---
 
