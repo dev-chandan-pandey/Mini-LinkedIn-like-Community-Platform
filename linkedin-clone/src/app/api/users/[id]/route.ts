@@ -5,10 +5,13 @@ import dbConnect from '@/lib/db';
 import User from '@/models/User';
 import Post from '@/models/Post';
 
-export async function GET(req: NextRequest, { params }: { params: { id: string } }) {
+export async function GET(
+  req: NextRequest,
+  { params }: { params: { id: string } }
+) {
   try {
     await dbConnect();
-//    console.log(id,"param")
+
     const user = await User.findById(params.id);
     if (!user) {
       return NextResponse.json({ error: 'User not found' }, { status: 404 });
