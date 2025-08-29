@@ -1,0 +1,143 @@
+.pageContainer {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.header .highlight {
+  color: var(--color-red);
+  position: relative;
+  display: inline-block;
+}
+
+.header .highlight::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: var(--color-yellow);
+}
+
+
+.header p {
+  font-size: 1.1rem;
+  color: var(--color-gray);
+}
+
+.templateGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 40px;
+  justify-items: center;
+}
+
+.templateCard {
+  background-color: var(--color-white);
+  border-radius: 16px;
+  border: 1px solid var(--color-border);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.templateCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.previewImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.cardContent {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.cardContent h3 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.cardContent p {
+  color: var(--color-gray);
+  flex-grow: 1;
+}
+
+.featuresList {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0;
+  flex-grow: 1;
+}
+
+.featuresList li {
+  padding-left: 20px;
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.featuresList li::before {
+  content: '•';
+  color: var(--color-red);
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  font-size: 1.2rem;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.buttonGroup button {
+  flex-grow: 1;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btnCustomize {
+  background-color: var(--color-red);
+  color: var(--color-white);
+}
+
+.btnCustomize:hover {
+  filter: brightness(110%);
+}
+
+.btnPreview {
+  background-color: var(--color-white);
+  color: var(--color-dark);
+  border: 2px solid var(--color-yellow);
+}
+
+.btnPreview:hover {
+  background-color: var(--color-yellow-light);
+}

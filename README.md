@@ -42,7 +42,7 @@ A mini LinkedIn clone built using modern web technologies, allowing users to reg
 ├── tsconfig.json
 └── ...
 
-`
+```
 ## ⚙️ Setup Instructions
 
 1. **Clone the repository:**

@@ -1,0 +1,75 @@
+.page {
+    background-color: var(--color-white);
+}
+
+.header {
+    background-color: var(--color-yellow);
+    padding: 60px 40px;
+    text-align: center;
+    position: relative;
+}
+
+.headerContent h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+.headerContent p {
+    font-size: 1.2rem;
+    margin-top: 8px;
+    color: var(--color-dark);
+}
+.underline {
+    width: 80px;
+    height: 4px;
+    background-color: var(--color-dark);
+    margin: 16px auto 0;
+}
+
+.listProfileBtn {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.mainContent {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.filterBar {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.searchInput {
+    width: 100%;
+    max-width: 400px;
+    padding: 14px 20px;
+    border-radius: 8px;
+    border: 1px solid var(--color-border);
+    font-size: 1rem;
+    background-color: var(--color-yellow-light);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    justify-items: center;
+}
+
+.centered {
+    text-align: center;
+    padding: 80px 20px;
+    font-size: 1.2rem;
+    color: var(--color-gray);
+}

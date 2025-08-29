@@ -1,0 +1,369 @@
+{
+  "professionals": [
+    {
+      "id": "sumit-krishnan",
+      "templateId": 2,
+      "hero": {
+        "name": "Sumit Krishnan",
+        "title": "Drone Expert & Aerospace Engineer",
+        "profileImage": "https://i.imgur.com/QB0eS6b.png"
+      },
+      "about": {
+        "bio": "Specialized drone and aerospace training programs tailored for individuals, institutions, and researchers — led by a DGCA-Certified RPDL instructor with over 11+ years of experience in aviation education.",
+        "email": "sumit@droneacademy.com",
+        "phone": "+91-9876543210",
+        "location": "Hyderabad, Telangana"
+      },
+      "skills": [
+        {
+          "name": "Drone Training",
+          "level": 95
+        },
+        {
+          "name": "Aerospace Expertise",
+          "level": 92
+        },
+        {
+          "name": "Technical Writing & Research",
+          "level": 94
+        },
+        {
+          "name": "Ground School & Simulation",
+          "level": 90
+        },
+        {
+          "name": "CFD & Wind Tunnel Testing",
+          "level": 85
+        },
+        {
+          "name": "Public Speaking & Presentations",
+          "level": 89
+        },
+        {
+          "name": "Practical Flying Sessions",
+          "level": 98
+        },
+        {
+          "name": "Curriculum Development",
+          "level": 96
+        },
+        {
+          "name": "Conference & Event Management",
+          "level": 88
+        }
+      ],
+      "services": [
+        {
+          "title": "Drone Pilot Training",
+          "description": "Comprehensive RPAS training programs covering drone pilots of all Make-Drone Academy."
+        },
+        {
+          "title": "Aerospace Education",
+          "description": "Aviation-focused instruction in core aerospace disciplines from fundamentals to applied projects."
+        },
+        {
+          "title": "Research & Technical Writing",
+          "description": "Authoring support, curriculum building, and professional technical consulting in aerospace and drones."
+        },
+        {
+          "title": "Workshops & Event Management",
+          "description": "Faculty development for aerospace & UAV educational events, including curriculum planning."
+        }
+      ],
+      "achievements": [
+        {
+          "title": "DGCA RPAS Instructor",
+          "details": "Medium & Small Class Certified"
+        },
+        {
+          "title": "Published Author",
+          "details": "Fundamentals of Propulsion' & 7 Research Papers"
+        },
+        {
+          "title": "Conference Organizer",
+          "details": "ICAEAS - 2019, Aerospace & Safty"
+        }
+      ]
+    },
+    {
+      "id": "edu-lab-2d87",
+      "templateId": 2,
+      "hero": {
+        "name": "edu lab",
+        "title": "soft were ",
+        "profileImage": "https://dev-chandan-pandey.github.io/"
+      },
+      "about": {
+        "bio": "mern stack",
+        "email": "abc@gmail.com",
+        "phone": "8839459001",
+        "location": "burhanpur"
+      },
+      "skills": [
+        {
+          "name": "react",
+          "level": 50
+        },
+        {
+          "name": "node",
+          "level": 50
+        }
+      ],
+      "services": [
+        {
+          "title": "",
+          "description": ""
+        }
+      ],
+      "portfolio": [
+        {
+          "title": "",
+          "description": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "edu-lab-7621",
+      "templateId": 2,
+      "hero": {
+        "name": "edu lab",
+        "title": "soft were ",
+        "profileImage": "https://dev-chandan-pandey.github.io/"
+      },
+      "about": {
+        "bio": "mern stack",
+        "email": "abc@gmail.com",
+        "phone": "8839459001",
+        "location": "burhanpur"
+      },
+      "skills": [
+        {
+          "name": "react",
+          "level": 50
+        },
+        {
+          "name": "node",
+          "level": 50
+        }
+      ],
+      "services": [
+        {
+          "title": "",
+          "description": ""
+        }
+      ],
+      "portfolio": [
+        {
+          "title": "",
+          "description": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "dd-e178",
+      "templateId": 2,
+      "hero": {
+        "name": "dd",
+        "title": "ss",
+        "profileImage": "ss"
+      },
+      "about": {
+        "bio": "sss",
+        "email": "sss",
+        "phone": "sss",
+        "location": "ss"
+      },
+      "skills": [
+        {
+          "name": "ddd",
+          "level": 50
+        }
+      ],
+      "services": [
+        {
+          "title": "",
+          "description": ""
+        }
+      ],
+      "portfolio": [
+        {
+          "title": "",
+          "description": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "-a317",
+      "templateId": 1,
+      "hero": {
+        "name": "",
+        "title": "",
+        "profileImage": ""
+      },
+      "about": {
+        "bio": "",
+        "email": "",
+        "phone": "",
+        "location": ""
+      },
+      "skills": [
+        {
+          "name": "",
+          "level": 50
+        }
+      ],
+      "services": [
+        {
+          "title": "",
+          "description": ""
+        }
+      ],
+      "portfolio": [
+        {
+          "title": "",
+          "description": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "-0e35",
+      "templateId": 1,
+      "hero": {
+        "name": "",
+        "title": "",
+        "profileImage": ""
+      },
+      "about": {
+        "bio": "",
+        "email": "",
+        "phone": "",
+        "location": ""
+      },
+      "skills": [
+        {
+          "name": "",
+          "level": 50
+        }
+      ],
+      "services": [
+        {
+          "title": "",
+          "description": ""
+        }
+      ],
+      "portfolio": [
+        {
+          "title": "",
+          "description": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "-5025",
+      "templateId": 1,
+      "hero": {
+        "name": "",
+        "title": "",
+        "profileImage": ""
+      },
+      "about": {
+        "bio": "",
+        "email": "",
+        "phone": "",
+        "location": ""
+      },
+      "skills": [
+        {
+          "name": "",
+          "level": 50
+        }
+      ],
+      "services": [
+        {
+          "title": "",
+          "description": ""
+        }
+      ],
+      "portfolio": [
+        {
+          "title": "",
+          "description": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "-d046",
+      "templateId": 1,
+      "hero": {
+        "name": "",
+        "title": "",
+        "profileImage": ""
+      },
+      "about": {
+        "bio": "",
+        "email": "",
+        "phone": "",
+        "location": ""
+      },
+      "skills": [
+        {
+          "name": "",
+          "level": 50
+        }
+      ],
+      "services": [
+        {
+          "title": "",
+          "description": ""
+        }
+      ],
+      "portfolio": [
+        {
+          "title": "",
+          "description": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "-2827",
+      "templateId": 1,
+      "hero": {
+        "name": "",
+        "title": "",
+        "profileImage": ""
+      },
+      "about": {
+        "bio": "",
+        "email": "",
+        "phone": "",
+        "location": ""
+      },
+      "skills": [
+        {
+          "name": "",
+          "level": 50
+        }
+      ],
+      "services": [
+        {
+          "title": "",
+          "description": ""
+        }
+      ],
+      "portfolio": [
+        {
+          "title": "",
+          "description": "",
+          "image": ""
+        }
+      ]
+    }
+  ]
+}

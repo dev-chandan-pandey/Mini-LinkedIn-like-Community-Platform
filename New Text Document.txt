@@ -91,3 +91,6 @@ Mini-LinkedIn-like-Community-Platform\linkedin-clone\src\app\models\User.ts
 ├── .env.local               ← contains DB + JWT_SECRET
 ├── next.config.js
 └── tsconfig.json
+
+
+  "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
