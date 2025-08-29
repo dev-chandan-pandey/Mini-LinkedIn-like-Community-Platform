@@ -47,16 +47,11 @@ A mini LinkedIn clone built using modern web technologies, allowing users to reg
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/linkedin-clone.git
+   git clone [https://github.com/your-username/linkedin-clone.git](https://github.com/dev-chandan-pandey/Mini-LinkedIn-like-Community-Platform.git)
    cd linkedin-clone
 
-`
-`
 npm install
-`
 
-`NEXT_PUBLIC_API_URL=http://localhost:3000
-`
+NEXT_PUBLIC_API_URL=http://localhost:3000
 
-`npm run dev
-`
+npm run dev
